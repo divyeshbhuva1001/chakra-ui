@@ -1,0 +1,150 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "date": "20/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 2,
+            "employee_name": "Garrett Winters",
+            "date": "12/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 3,
+            "employee_name": "Ashton Cox",
+            "date": "25/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 4,
+            "employee_name": "Cedric Kelly",
+            "date": "01/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 5,
+            "employee_name": "Airi Satou",
+            "date": "30/05/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 6,
+            "employee_name": "Brielle Williamson",
+            "date": "14/04/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 7,
+            "employee_name": "Herrod Chandler",
+            "date": "20/08/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 8,
+            "employee_name": "Rhona Davidson",
+            "date": "15/03/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 9,
+            "employee_name": "Colleen Hurst",
+            "date": "15/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 10,
+            "employee_name": "Sonya Frost",
+            "date": "25/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 11,
+            "employee_name": "Jena Gaines",
+            "date": "20/04/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 12,
+            "employee_name": "Quinn Flynn",
+            "date": "03/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 13,
+            "employee_name": "Charde Marshall",
+            "date": "15/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 14,
+            "employee_name": "Haley Kennedy",
+            "date": "31/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 15,
+            "employee_name": "Tatyana Fitzpatrick",
+            "date": "30/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 16,
+            "employee_name": "Michael Silva",
+            "date": "20/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 17,
+            "employee_name": "Paul Byrd",
+            "date": "20/05/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 18,
+            "employee_name": "Gloria Little",
+            "date": "20/07/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 19,
+            "employee_name": "Bradley Greer",
+            "date": "20/09/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 20,
+            "employee_name": "Dai Rios",
+            "date": "20/10/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 21,
+            "employee_name": "Jenette Caldwell",
+            "date": "20/01/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 22,
+            "employee_name": "Yuri Berry",
+            "date": "20/11/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 23,
+            "employee_name": "Caesar Vance",
+            "date": "20/12/2023",
+            "label": "Sample Tag"
+        },
+        {
+            "id": 24,
+            "employee_name": "Doris Wilder",
+            "date": "20/01/2023",
+            "label": "Sample Tag"
+        }
+    ],
+    "message": "Successfully! All records has been fetched."
+}
