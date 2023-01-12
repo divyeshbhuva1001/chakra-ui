@@ -112,17 +112,30 @@ a {
   cursor: not-allowed;
 }
 
-.pagination .page-item a {
+.pagination .page-item{
+  margin: 0 1px;
+}
+.pagination .page-item.disabled button{
+  cursor: not-allowed;
+}
+.pagination .page-item.disabled {
+  background: transparent !important;
+}
+.pagination .page-item:hover{
+  background: #e5eff7;
+}
+
+.pagination .page-item button {
   margin: 0 10px;
   color: gray;
 }
 
-.pagination .active a {
+.pagination .active button {
   color: black;
 }
 
-.pagination .page-item:first-child a,
-.pagination .page-item:last-child a {
+.pagination .page-item:first-child button,
+.pagination .page-item:last-child button {
   color: black;
 }
 
@@ -131,4 +144,9 @@ a {
 }
 button{
   background-color: transparent;
+}
+.previous_btn,
+.next_btn{
+  display: flex;
+  border-radius: 4px;
 }

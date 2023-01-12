@@ -1,5 +1,14 @@
 import React from "react";
 
+
+interface PaginationProps {
+  itemsPerPage: Number,
+  totalItems: Number,
+  changePage: Function,
+  prevPage: Function,
+  nextPage: Function,
+  pageNumber: Number,
+} 
 function Pagination({
   itemsPerPage,
   totalItems,
@@ -7,53 +16,51 @@ function Pagination({
   prevPage,
   nextPage,
   pageNumber,
-}) {
+}: PaginationProps) {
   const pages = [];
 
   for (let i = 1; i <= Math.ceil(totalItems / itemsPerPage); i++) {
     pages.push(i);
   }
+  
 
   return (
     <nav aria-label="Page navigation">
       <ul className="pagination justify-content-center mb-3">
         <li
-          className={`page-item ${pageNumber <= 1 ? "disabled" : ""}`}
+          className={`page-item previous_btn ${pageNumber <= 1 ? "disabled" : ""}`}
         >
-          <a
+          <button
             className="page-link"
-            href="javscript:void(0)"
             onClick={prevPage}
           >
             <span>Previous</span>
-          </a>
+          </button>
         </li>
         {pages.map((number) => (
           <li
             className={`page-item pages ${pageNumber === number ? "active" : ""
               }`}
             key={number}
+            onClick={changePage.bind(null, number)}
           >
-            <a
+            <button
               className="page-link"
-              href="javscript:void(0)"
-              onClick={changePage.bind(null, number)}
             >
               {number}
-            </a>
+            </button>
           </li>
         ))}
         <li
-          className={`page-item ${pageNumber >= pages.length ? "disabled" : ""
+          className={`page-item next_btn ${pageNumber >= pages.length ? "disabled" : ""
             }`}
         >
-          <a
+          <button
             className="page-link"
-            href="javscript:void(0)"
             onClick={nextPage}
           >
             <span>Next</span>
-          </a>
+          </button>
         </li>
       </ul>
     </nav>

@@ -149,10 +149,10 @@ export default function Home() {
                       <Td>{item.employee_name}</Td>
                       <Td>{item.date}</Td>
                       <Td>
-                        <Tag>{item.label}{index}</Tag>
+                        <Tag>{item.label}</Tag>
                         <Tag colorScheme='cyan' ml={5}>{item.label} 2 </Tag>
                       </Td>
-                      <Td><Link href={'https://www.google.com/'}>https://www.google.com/</Link></Td>
+                      <Td><Link target={'_blank'} href={'https://www.google.com/'}>https://www.google.com/</Link></Td>
                       <Td>
                         <div>
                           <Button variant='ghost' size='sm' onClick={() => handelEdit(item)} ml={3}><EditIcon /></Button>
@@ -181,7 +181,6 @@ export default function Home() {
               <ModalCloseButton />
               <form action="" onSubmit={handelSubmit}>
                 <ModalBody>
-                  <Input type='text' name='title' />
                   <FormControl mb={4}>
                     <FormLabel>Title</FormLabel>
                     <Input type='text' name='employee_name' value={formData.employee_name} onChange={handleChange} />
